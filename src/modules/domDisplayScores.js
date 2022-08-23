@@ -1,4 +1,4 @@
-import scores from "./scoreArray.js";
+import scores from './scoreArray.js';
 
 const scoresSection = document.querySelector('.scores-section');
 

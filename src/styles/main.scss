@@ -1,10 +1,4 @@
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
   font-size: 16px;
 }
@@ -26,7 +20,7 @@ li {
 }
 
 .score-title {
-  margin: 0;
+  margin-top: 5px 0 0 0;
 }
 
 #header {
@@ -64,10 +58,6 @@ li {
 
 .score:nth-child(even) {
   background-color: rgb(235, 235, 235);
-}
-
-.score-title {
-  margin-top: 10px;
 }
 
 .btn-refresh {
@@ -141,4 +131,3 @@ input {
     width: 100%;
   }
 }
-
