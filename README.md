@@ -1,6 +1,6 @@
-# To Do App
+# Leaderboard-web
 
->  This project is using webpack to structure To-do-list app. It is a minimal implementation of a To Do list application
+>  This project is using webpack to structure Leaderboard-web. It is a minimal implementation of a Leaderboard-web application
 
 ## Built With
 
@@ -18,8 +18,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
   1. Download the **Zip** file or clone the repo with: ```bash git clone [https://github.com/Tadessejemal1/
-Awosome-todo-list web.git-  https://github.com/Tadessejemal1/To-Do-List-web.git/)
-  2.  ``` To access cloned directory run: ```bash cd/To-Do-List-web``` 
+Awosome-todo-list web.git-  https://github.com/Tadessejemal1/Leaderboard-web.git/)
+  2.  ``` To access cloned directory run: ```bash cd/Leaderboard-web``` 
   3. Open it with the live server or just  open the "index.html" file with any browser
 
 ### Usage
