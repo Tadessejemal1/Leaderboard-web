@@ -1,0 +1,144 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  padding: 0 6px;
+  line-height: 24px;
+}
+
+.btn {
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.score-title {
+  margin: 0;
+}
+
+#header {
+  padding: 18px 40px;
+}
+
+#main {
+  display: flex;
+  justify-content: space-around;
+  padding: 18px 120px;
+}
+
+.lists-score {
+  width: 50%;
+}
+
+.lists-score-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scores-section {
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+.scores-section li {
+  margin: 5px 0;
+}
+
+.score:nth-child(odd) {
+  background-color: rgb(201, 201, 201);
+}
+
+.score:nth-child(even) {
+  background-color: rgb(235, 235, 235);
+}
+
+.score-title {
+  margin-top: 10px;
+}
+
+.btn-refresh {
+  padding: 7px 15px;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 5px 5px 0 2px;
+  align-self: flex-end;
+}
+
+.add-score {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+#form-add-score {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+#form-add-score > * {
+  margin: 5px 0;
+}
+
+input {
+  font-size: 18px;
+}
+
+#score {
+  height: 40px;
+}
+
+#name {
+  height: 40px;
+}
+
+#add-btn {
+  padding: 7px 15px;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 5px 5px 0 2px;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  #header {
+    padding: 0;
+    text-align: center;
+  }
+
+  #main {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6px;
+    align-items: center;
+  }
+
+  .lists-score {
+    width: 100%;
+    margin-top: 24px;
+    order: 1;
+  }
+
+  .add-score {
+    width: 100%;
+  }
+}
+
