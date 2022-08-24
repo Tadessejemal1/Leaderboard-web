@@ -15,6 +15,7 @@ const renderScore = async () => {
     scoresSection.appendChild(scoreLists);
   });
 };
+
 btnRefresh.addEventListener('click', () => {
   Scores.getScores();
   renderScore();

@@ -8,7 +8,6 @@ const formSubmit = () => {
     event.preventDefault();
 
     const { name, score } = addScoreForm.elements;
-
     await Scores.addScore({ user: name.value, score: score.value });
     event.target.reset();
     name.focus();
@@ -27,6 +26,7 @@ const renderAddScore = () => {
           <input type="number" name="score" id="score" placeholder="Enter your score" required>
           <input type="submit" value="Submit" id="add-btn">
         </form>`;
+
   mainContainer.appendChild(addScoreDiv);
   formSubmit();
 };

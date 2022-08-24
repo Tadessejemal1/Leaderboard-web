@@ -1,6 +1,10 @@
-
 body {
   font-size: 16px;
+  background-color: #0d6efd;
+}
+
+.main-title {
+  color: #e74e11;
 }
 
 ul {
@@ -46,6 +50,7 @@ li {
 .scores-section {
   border: 2px solid black;
   margin-top: 10px;
+  background-color: rgb(235, 235, 235);
 }
 
 .scores-section li {
@@ -59,34 +64,38 @@ li {
   font-weight: 500;
 }
 
-.score:nth-child(odd) {
-  background-color: rgb(201, 201, 201);
-}
-
 .score:nth-child(even) {
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(116, 107, 107);
 }
 
 .btn-refresh {
   padding: 7px 15px;
-  background-color: white;
-  border: 2px solid black;
   font-size: 20px;
   font-weight: 500;
   box-shadow: 5px 5px 0 2px;
   align-self: flex-end;
+  border: 1px solid #64d68a;
+  border-radius: 5px;
+  background-color: #64d68a;
 }
 
 .add-score {
   width: 35%;
   display: flex;
   flex-direction: column;
+  background-color: #f3f1f1;
+  border: 1px solid #ccc5c5;
+  height: 240px;
+  padding: 20px 0;
+  border-radius: 20px;
 }
 
 #form-add-score {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  width: 85%;
+  margin-left: 23px;
 }
 
 #form-add-score > * {
@@ -107,12 +116,13 @@ input {
 
 #add-btn {
   padding: 7px 15px;
-  background-color: white;
-  border: 2px solid black;
   font-size: 16px;
   font-weight: 500;
   box-shadow: 5px 5px 0 2px;
   align-self: flex-end;
+  border: 1px solid #64d68a;
+  border-radius: 5px;
+  background-color: #64d68a;
 }
 
 @media screen and (max-width: 768px) {
