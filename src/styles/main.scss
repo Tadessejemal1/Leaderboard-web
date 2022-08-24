@@ -52,6 +52,13 @@ li {
   margin: 5px 0;
 }
 
+.score {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
 .score:nth-child(odd) {
   background-color: rgb(201, 201, 201);
 }
@@ -92,13 +99,6 @@ input {
 
 #score {
   height: 40px;
-}
-
-.score {
-  display: flex;
-  justify-content: space-between;
-  padding: 5px 10px;
-  font-weight: 500;
 }
 
 #name {
