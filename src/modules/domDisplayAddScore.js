@@ -1,3 +1,21 @@
+import renderScore from './domDisplayScores.js';
+import Scores from './scorePost.js';
+
+const formSubmit = () => {
+  const addScoreForm = document.getElementById('form-add-score');
+
+  addScoreForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    const { name, score } = addScoreForm.elements;
+
+    await Scores.addScore({ user: name.value, score: score.value });
+    event.target.reset();
+    name.focus();
+    renderScore();
+  });
+};
+
 const renderAddScore = () => {
   const mainContainer = document.getElementById('main');
   const addScoreDiv = document.createElement('div');
@@ -10,6 +28,7 @@ const renderAddScore = () => {
           <input type="submit" value="Submit" id="add-btn">
         </form>`;
   mainContainer.appendChild(addScoreDiv);
+  formSubmit();
 };
 
 export default renderAddScore;

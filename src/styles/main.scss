@@ -94,6 +94,13 @@ input {
   height: 40px;
 }
 
+.score {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
 #name {
   height: 40px;
 }
