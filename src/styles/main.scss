@@ -65,6 +65,13 @@ li {
   margin: 5px 0;
 }
 
+.input-errors {
+  color: red;
+  display: none;
+  margin-top: 12px;
+  align-self: flex-start;
+}
+
 .score {
   display: flex;
   justify-content: space-between;
@@ -145,6 +152,10 @@ input {
     justify-content: space-between;
     padding: 6px;
     align-items: center;
+  }
+
+  .main-title {
+    font-size: 22px;
   }
 
   .lists-score {
