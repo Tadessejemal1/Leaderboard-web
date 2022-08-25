@@ -1,4 +1,4 @@
-import Scores from './scorePost.js';
+import Scores from './scoresGame.js';
 
 const scoresSection = document.querySelector('.scores-section');
 const btnRefresh = document.querySelector('.btn-refresh');
@@ -15,9 +15,11 @@ const renderScore = async () => {
     scoresSection.appendChild(scoreLists);
   });
 };
+// addEventListener on refresh button
 btnRefresh.addEventListener('click', () => {
   Scores.getScores();
   renderScore();
+  window.location.reload();
 });
 
 export default renderScore;

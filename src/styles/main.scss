@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Press+Start+2P&display=swap');
 
 body {
   font-size: 16px;
+  background-color: #0d6efd;
+}
+
+.main-title {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 700;
+  color: #fff;
+  font-size: 42px;
 }
 
 ul {
@@ -21,6 +30,8 @@ li {
 
 .score-title {
   margin-top: 5px 0 0 0;
+  margin-left: 15px;
+  text-transform: uppercase;
 }
 
 #header {
@@ -29,7 +40,7 @@ li {
 
 #main {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 18px 120px;
 }
 
@@ -46,10 +57,19 @@ li {
 .scores-section {
   border: 2px solid black;
   margin-top: 10px;
+  background-color: rgb(20, 145, 234);
+  border-radius: 20px;
 }
 
 .scores-section li {
   margin: 5px 0;
+}
+
+.input-errors {
+  color: red;
+  display: none;
+  margin-top: 12px;
+  align-self: flex-start;
 }
 
 .score {
@@ -59,34 +79,39 @@ li {
   font-weight: 500;
 }
 
-.score:nth-child(odd) {
-  background-color: rgb(201, 201, 201);
-}
-
 .score:nth-child(even) {
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(84, 43, 89);
 }
 
 .btn-refresh {
   padding: 7px 15px;
-  background-color: white;
-  border: 2px solid black;
   font-size: 20px;
   font-weight: 500;
   box-shadow: 5px 5px 0 2px;
   align-self: flex-end;
+  border: 1px solid #64d68a;
+  border-radius: 5px;
+  background-color: #64d68a;
 }
 
 .add-score {
-  width: 35%;
+  width: 40%;
   display: flex;
   flex-direction: column;
+  background-color: #f3f1f1;
+  border: 1px solid #ccc5c5;
+  height: 30%;
+  padding: 20px 0;
+  border-radius: 20px;
+  margin-top: 30px;
 }
 
 #form-add-score {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  width: 85%;
+  margin-left: 23px;
 }
 
 #form-add-score > * {
@@ -94,25 +119,26 @@ li {
 }
 
 input {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 #score {
-  height: 40px;
+  height: 30px;
 }
 
 #name {
-  height: 40px;
+  height: 30px;
 }
 
 #add-btn {
   padding: 7px 15px;
-  background-color: white;
-  border: 2px solid black;
   font-size: 16px;
   font-weight: 500;
   box-shadow: 5px 5px 0 2px;
   align-self: flex-end;
+  border: 1px solid #64d68a;
+  border-radius: 5px;
+  background-color: #64d68a;
 }
 
 @media screen and (max-width: 768px) {
@@ -126,6 +152,10 @@ input {
     justify-content: space-between;
     padding: 6px;
     align-items: center;
+  }
+
+  .main-title {
+    font-size: 22px;
   }
 
   .lists-score {
