@@ -30,6 +30,8 @@ li {
 
 .score-title {
   margin-top: 5px 0 0 0;
+  margin-left: 15px;
+  text-transform: uppercase;
 }
 
 #header {
@@ -52,11 +54,6 @@ li {
   justify-content: space-between;
 }
 
-.score-title {
-  margin-left : 15px;
-  text-transform: uppercase;
-}
-
 .scores-section {
   border: 2px solid black;
   margin-top: 10px;
@@ -76,7 +73,7 @@ li {
 }
 
 .score:nth-child(even) {
-  background-color: rgb(116, 107, 107);
+  background-color: rgb(84, 43, 89);
 }
 
 .btn-refresh {
