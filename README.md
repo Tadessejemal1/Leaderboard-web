@@ -1,6 +1,13 @@
-# To Do App
+# Leaderboard-web
 
->  This project is using webpack to structure To-do-list app. It is a minimal implementation of a To Do list application
+>  This project is using webpack to structure Leaderboard-web. It is a minimal implementation of a Leaderboard-web application
+
+## screenshot for Desktop Version
+
+![image](https://user-images.githubusercontent.com/85793292/186709678-9a27887f-7877-4cf9-824a-7ccb96f76673.png)
+
+## screenshot for Mobile Version
+![image](https://user-images.githubusercontent.com/85793292/186709849-fb85a043-6c28-4406-b176-571610ed563d.png)
 
 ## Built With
 
@@ -17,9 +24,9 @@ To get a local copy up and running follow these simple example steps.
  - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
 
 ### Setup
-  1. Download the **Zip** file or clone the repo with: ```bash git clone [https://github.com/Tadessejemal1/
-Awosome-todo-list web.git-  https://github.com/Tadessejemal1/To-Do-List-web.git/)
-  2.  ``` To access cloned directory run: ```bash cd/To-Do-List-web``` 
+  1. Download the **Zip** file or clone the repo with: ```bash git clone [https://github.com/Tadessejemal1/Leaderboard-web.git
+     https://github.com/Tadessejemal1/Leaderboard-web.git/)
+  2.  ``` To access cloned directory run: ```bash cd/Leaderboard-web``` 
   3. Open it with the live server or just  open the "index.html" file with any browser
 
 ### Usage
@@ -40,6 +47,9 @@ Awosome-todo-list web.git-  https://github.com/Tadessejemal1/To-Do-List-web.git/
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+## Live Demo
+[live demo](https://tadessejemal1.github.io/Leaderboard-web/dist/)
 
 ## Show your support
 
