@@ -2,6 +2,9 @@
 
 >  This project is using webpack to structure Leaderboard-web. It is a minimal implementation of a Leaderboard-web application
 
+## Live Demo
+[live demo](https://tadessejemal1.github.io/Leaderboard-web/dist/)
+
 ## screenshot for Desktop Version
 
 ![image](https://user-images.githubusercontent.com/85793292/186709678-9a27887f-7877-4cf9-824a-7ccb96f76673.png)
