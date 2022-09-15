@@ -49,6 +49,7 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 ## Live Demo
+
 [live demo](https://euphonious-cactus-a77132.netlify.app/)
 
 ## Show your support
